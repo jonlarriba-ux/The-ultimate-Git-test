@@ -1,6 +1,9 @@
 package UI;
 
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 
 public class WindowSwingGit extends JFrame {
 
@@ -12,7 +15,21 @@ public class WindowSwingGit extends JFrame {
 		setSize(640, 480);
 		setLocationRelativeTo(null);
 		
+		JMenuBar barraMenu = new JMenuBar();
+		setJMenuBar(barraMenu);
 		
+		JMenu menuFichero = new  JMenu("Fichero");
+		barraMenu.add(menuFichero);
+		
+		JMenuItem itemMostrar = new JMenuItem("Mostrar");
+		menuFichero.add(itemMostrar);
+		
+		JMenuItem itemLimpiar = new JMenuItem("Limpiar");
+		menuFichero.add(itemLimpiar);
+		
+		JMenuItem itemSalir = new JMenuItem("Salir");
+		menuFichero.add(itemSalir);
+
 		
 		setVisible(true);
 	}
