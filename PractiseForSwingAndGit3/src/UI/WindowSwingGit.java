@@ -147,7 +147,14 @@ public class WindowSwingGit extends JFrame {
 		
 		
 		
-		
+		JButton salir = new JButton("Salir");
+		JButton mostrarDatos = new JButton("Mostrar Datos");
+		JButton limpiar = new JButton("Limpiar");
+		JPanel botonesPermanentes = new JPanel();
+		add(botonesPermanentes, BorderLayout.SOUTH);
+		botonesPermanentes.add(mostrarDatos);
+		botonesPermanentes.add(limpiar);
+		botonesPermanentes.add(salir);
 		
 		
 		setVisible(true);
