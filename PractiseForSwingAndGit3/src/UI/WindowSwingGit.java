@@ -83,7 +83,7 @@ public class WindowSwingGit extends JFrame {
 		JLabel telefono = new JLabel("Teléfono:");
 		JLabel dirección = new JLabel("Dirección:");
 		JLabel ciudad = new JLabel("Ciudad:");
-		JLabel pais = new JLabel("País");
+		JLabel pais = new JLabel("Países");
 		JTextField telefonoText = new JTextField();
 		JTextField direccionText = new JTextField();
 		JTextField ciudadText = new JTextField();
@@ -161,3 +161,4 @@ public class WindowSwingGit extends JFrame {
 	}
 
 }
+
